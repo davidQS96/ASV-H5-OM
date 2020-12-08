@@ -12,7 +12,7 @@ from skimage.morphology import disk, octagon, erosion, dilation
 
 opcion = 1
 tamaño = 15
-img = imread('circunferencias.png')
+img = imread('Imagenes/circunferencias.png')
 noisy_image = rgb2gray(img)
 binaria = 0.25 <= noisy_image
 binaria = ~binaria
